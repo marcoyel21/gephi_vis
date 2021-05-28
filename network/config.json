@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "aaa",
-    "intro": "Quebequois",
+    "intro": "Visualización de los viajes en bicileta durante el tiempo de captura de datos",
     "title": "Wonka"
   },
   "legend": {
@@ -19,12 +19,12 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Dynamic In-Degree",
+    "groupSelectorAttribute": "color",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": "Dynamic Out-Degree"
+    "imageAttribute": "municipal"
   },
   "sigma": {
     "drawingProperties": {
