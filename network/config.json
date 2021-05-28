@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "",
-    "intro": "Visualización de los viajes en bicileta durante el tiempo de captura de datos. \nLos nodos representan las estaciones y están escaladas a su grado (cantidad de viajes que llegan y salen)\nLos colores de los nodos representan la municipalidad.\nPor motivos de poder de computo se usaron solo 200,000 viajes de la base de datos original.",
+    "intro": "Visualización de 1000 viajes aleatorios en bicicleta durante el tiempo de captura de datos. \nLos nodos representan las estaciones y están escaladas a su grado (cantidad de viajes que llegan y salen)\nLos colores de los nodos representan la municipalidad.\n\n",
     "title": "Wonka Vis"
   },
   "legend": {
@@ -18,13 +18,13 @@
     "nodeLabel": "Estaciones"
   },
   "features": {
-    "search": true,
-    "groupSelectorAttribute": "municipal",
+    "search": false,
+    "groupSelectorAttribute": "color",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": "station"
+    "imageAttribute": "municipal"
   },
   "sigma": {
     "drawingProperties": {
